@@ -31,7 +31,6 @@
   - 'git push origin main'
 - 'git pull <WHERE> <WHAT>': pulls the <WHAT> branch in <WHERE> to local computer
 
-<<<<<<< HEAD
 ## Branches
 
 - 'git branch <NAME>': create branch <NAME> where you are (HEAD)
@@ -44,3 +43,6 @@
 - 'git rebase': command to change the history of a commit
   - Commits from 'git merge' can be automatically combined 
 - 'git rebase <BRANCH>': incorporate changes from <BRANCH> into current branch
+
+- main commit 1
+
