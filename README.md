@@ -47,10 +47,6 @@
   - 'git add <FILE>': to mark conflict resolution
   - 'git rebase --continue': move to next commit in rebase
   - 'git rebase --abort': undo git rebase step
+- 'git rebase -i <COMMIT>': HEAD~ or <HASH> of commit to go into interactive rebase
 
-- main commit 1
-- main commit 2
-- branch commit 1
-- branch commit 2
-
-
+  - 'git rebase -i <HASH>^': use ^ to include that commit in interactive rebase
